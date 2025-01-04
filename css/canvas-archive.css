@@ -1,0 +1,102 @@
+body{
+    background-image: url(../resources/background.png)
+}
+
+a{
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 76px;
+    background-color: #aaaaff;
+    padding: 5px;
+    display: flex;
+}
+
+.header-logo{
+    height: 66px;
+    padding-left: 10px;
+}
+
+.back-button{
+    background-image: url(../resources/back-button.png);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    margin: 13px 5px 0px 15px;
+}
+
+.back-button:hover{
+    background-image: url(../resources/back-button-hover.png);
+}
+
+.canvas-info{
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 5px 100px 0px 100px;
+    color:royalblue;
+}
+.main-canvases{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.event-canvas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+hr{
+    width: 95%;
+    height: 3px;
+    background-color: #454580;
+    margin: 10px auto auto auto;
+}
+
+h1{
+    font-size: 40px;
+    color: black;
+}
+
+.canvas-boxes{
+    margin: 20px 0px 0px 65px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.canvas-box{
+    display: flex;
+    height: 430px;
+    width: 400px;
+    padding: 10px;
+    margin-right: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 5px;
+}
+
+.canvas-box p{
+    font-size: 20px;
+}
+
+.archive-info-section h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0px -5px 2.5%;
+}
+
+.canvas-stats-data{
+    font-size: 16px;
+    margin: 10px 0px 0px 3%;
+    list-style-type: disc;
+}
